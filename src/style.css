@@ -14,9 +14,50 @@ header {
 
 
 body{
-    background-color: #fcf3e8;
+    background-color: #f8f2f2;
 }
 
+
+.container-all {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+}
+.ctn-form {
+    width: 80%;
+    padding: 40px;
+    background: #ffffff;
+}
+.ctn-text {
+    width: 100%;
+    background-image: url('../src/logo/madre-y-bebe\ \(1\).jpg');
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+    position: relative;
+}
+.capa {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(90deg, #E30F87, #EF5A5A);
+    opacity: 0.8;
+}
+.title-description {
+    position: relative;
+    top: 80px;
+    color: white;
+    font-weight: 300;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
 nav ul {
     list-style-type: none;
     padding: 0;
@@ -43,7 +84,7 @@ nav ul {
   }
 
 .cabecera{
-    background-color: #fbd5af;
+    background-color: #ffffff;
     display: flex;
     align-content: center;
     justify-content: center;
@@ -69,7 +110,7 @@ nav ul {
 .formulario{
     width: 300px;
     margin: auto;
-    background: #fafafa;
+    background: #fffefe;
     padding: 10px 30px;
     box-sizing: border-box;
     margin-top: 40px;
@@ -154,6 +195,7 @@ nav ul {
         background-color: #EF5A5A;
         color: #FEFFDF;
         border-radius: 10px;
+        box-shadow: inset 0 0 0 3px #faf9fa;
     }
     .footer{
         display: flex;
@@ -214,8 +256,6 @@ nav ul {
         }
         
     }
-
-    
 
 
     .header-position{
@@ -425,9 +465,9 @@ nav ul {
     }
 
       button:hover {
-        background: #eef3cd;
-        color: #3a7999;
-        box-shadow: inset 0 0 0 3px #ffffff;
+        background: #fc3476;
+        color: #f9fbfc;
+        box-shadow: inset 0 0 0 3px #faf9fa;
       }
 
       ::placeholder {
@@ -500,3 +540,24 @@ nav ul {
     color: #f2f2f2;
     margin-bottom: 2px; 
    }
+   @media screen and (max-width: 800px) {
+
+    .ctn-text {
+        display: none;
+    }
+
+    .ctn-form {
+        margin: auto;
+        width: 100%;
+        background: white;
+    }
+}
+@media screen and (max-width: 500px) {
+
+    .title-welcome {
+        font-weight: 400;
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+}

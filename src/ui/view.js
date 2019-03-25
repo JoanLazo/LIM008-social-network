@@ -6,10 +6,12 @@ import {signUpWithEmailAndPasswordOnClick, signInWithPasswordOnClick,
 
 export const registroForm = () => {
   const tmpl = `
+  <div class="container-all">
+   <div class="ctn-form">
     <header class="cabecera">
         <img src="logo/encabezado.png" alt="encabezado">
     </header>
-    <nav class="nav-view">
+    <nav class="nav-view">  
         <ul>
           <li>
             <a href="#/ingreso"><img class="boton-view" src="./logo/log-in-button-with-arrow.png"></a>
@@ -39,6 +41,12 @@ export const registroForm = () => {
             </div>
         </form>
     </main>
+      </div>
+      <div class="ctn-text">
+         <div class="capa"></div>
+         <h1 class="title-description">"Unete a la comunidades de madres donde tu y tu bebe son lo más importante"</h1>
+      </div>
+    </div>
     <footer class="footer">
         <img class="footer-img" src="./logo/Sin título-1.png" alt="logo">
         <p class="footer-texto-color"><span class="barra-navegacion">Mommy’s Love</span> Copyright © All rights reserved. </p>
@@ -53,6 +61,8 @@ export const registroForm = () => {
 
 export const ingresoForm = () => {
   const temp = `
+  <div class="container-all">
+   <div class="ctn-form">
     <header class="cabecera">
         <img src="logo/encabezado.png" alt="encabezado">
     </header>
@@ -86,6 +96,12 @@ export const ingresoForm = () => {
           <button id="login-google" class="btn-google"><img src="./logo/google-plus.png"></button></li>
       </div>
     </main>
+    </div>
+      <div class="ctn-text">
+         <div class="capa"></div>
+         <h1 class="title-description">"Unete a la comunidades de madres donde tu y tu bebe son lo más importante"</h1>
+      </div>
+    </div>
     <footer class="footer">
         <img class="footer-img" src="./logo/Sin título-1.png" alt="logo">
         <p class="footer-texto-color"><span class="barra-navegacion">Mommy’s Love</span> Copyright © All rights reserved. </p>
