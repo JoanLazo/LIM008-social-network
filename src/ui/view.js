@@ -44,7 +44,7 @@ export const registroForm = () => {
       </div>
       <div class="ctn-text">
          <div class="capa"></div>
-         <h1 class="title-description">"Unete a la comunidades de madres donde tu y tu bebe son lo más importante"</h1>
+         <h1 class="title-description">"Unete a la red social de madres y cuentanos tu historia junto a tu bebe."</h1>
       </div>
     </div>
     <footer class="footer">
@@ -99,7 +99,7 @@ export const ingresoForm = () => {
     </div>
       <div class="ctn-text">
          <div class="capa"></div>
-         <h1 class="title-description">"Unete a la comunidades de madres donde tu y tu bebe son lo más importante"</h1>
+         <h1 class="title-description">"Unete a la red social de madres y cuentanos tu historia junto a tu bebe."</h1>
       </div>
     </div>
     <footer class="footer">
